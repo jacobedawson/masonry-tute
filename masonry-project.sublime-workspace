@@ -1,0 +1,868 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"findOne",
+				"findOneAndUpdate"
+			],
+			[
+				"clean",
+				"cleanGifEditArea"
+			],
+			[
+				"close",
+				"closeEditBox"
+			],
+			[
+				"no",
+				"noGifExists"
+			],
+			[
+				"add",
+				"addFaveGif"
+			],
+			[
+				"gifedit",
+				"gifEditSection"
+			],
+			[
+				"tagEdit",
+				"tagEditInput"
+			],
+			[
+				"gifed",
+				"gifEditFrame"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"edit",
+				"editTagsArray"
+			],
+			[
+				"ed",
+				"editTagsArray"
+			],
+			[
+				"the",
+				"theTagIndex"
+			],
+			[
+				"fa",
+				"favouriteGifs"
+			],
+			[
+				"some",
+				"someTags"
+			],
+			[
+				"remo",
+				"remove"
+			],
+			[
+				"tag",
+				"tagButton"
+			],
+			[
+				"tumb",
+				"tumblrGif"
+			],
+			[
+				"url",
+				"url"
+			],
+			[
+				"tum",
+				"tumblrGif"
+			],
+			[
+				"gif",
+				"gifWindow"
+			],
+			[
+				"sele",
+				"selectChannel"
+			],
+			[
+				"subm",
+				"submitToEdit"
+			],
+			[
+				"su",
+				"submitToEdit"
+			],
+			[
+				"drop",
+				"dropToEditGif"
+			],
+			[
+				"msg",
+				"msgBox"
+			],
+			[
+				"gl",
+				"glyphicon-flash"
+			],
+			[
+				"gly",
+				"glyphicon"
+			],
+			[
+				"flah",
+				"flashed"
+			],
+			[
+				"ms",
+				"msgID"
+			],
+			[
+				"Ob",
+				"ObjectId"
+			],
+			[
+				"nu",
+				"numberOfLikes"
+			],
+			[
+				"usr",
+				"userID"
+			],
+			[
+				"user",
+				"userID"
+			],
+			[
+				"mess",
+				"messageID"
+			],
+			[
+				"g",
+				"glyphicon-flash"
+			],
+			[
+				"remove",
+				"removeClass"
+			],
+			[
+				"glyp",
+				"glyphicon-flash"
+			],
+			[
+				"save",
+				"saveButton"
+			],
+			[
+				"time",
+				"timeCode"
+			],
+			[
+				"fav",
+				"faveGifArray"
+			],
+			[
+				"profile",
+				"profile_addTags"
+			],
+			[
+				"mous",
+				"mouseover"
+			],
+			[
+				"prof",
+				"profile_addTags"
+			],
+			[
+				"profi",
+				"profile_faveGif"
+			],
+			[
+				"new",
+				"newTags"
+			],
+			[
+				"th",
+				"theTags"
+			],
+			[
+				"sho",
+				"showTagsBar"
+			],
+			[
+				"my",
+				"myNameIs"
+			],
+			[
+				"favourite",
+				"favouriteGifs"
+			],
+			[
+				"favour",
+				"favouriteGifs"
+			],
+			[
+				"si",
+				"signup"
+			],
+			[
+				"is",
+				"isLoggedIn"
+			],
+			[
+				"cookie",
+				"cookieParser"
+			],
+			[
+				"par",
+				"parseCookie"
+			],
+			[
+				"ch",
+				"chatWindow"
+			],
+			[
+				"scrol",
+				"scrollTop"
+			],
+			[
+				"send",
+				"sendHeartbeat"
+			],
+			[
+				"sock",
+				"socketCount"
+			],
+			[
+				"conf",
+				"configDB"
+			],
+			[
+				"sin",
+				"signupMessage"
+			],
+			[
+				"username",
+				"usernameField"
+			],
+			[
+				"signu",
+				"signupMessage"
+			],
+			[
+				"find",
+				"findOne"
+			],
+			[
+				"sign",
+				"signupMessage"
+			],
+			[
+				"fai",
+				"failureFlash"
+			],
+			[
+				"messag",
+				"messageBox"
+			],
+			[
+				"tab",
+				"tabNotification"
+			],
+			[
+				"tabno",
+				"tabNotification"
+			],
+			[
+				"display",
+				"displayMsg"
+			],
+			[
+				"load",
+				"loadOldMsgs"
+			],
+			[
+				"disp",
+				"displayMsg"
+			],
+			[
+				"cha",
+				"chatWindow"
+			],
+			[
+				"chat",
+				"chatWindow"
+			],
+			[
+				"who",
+				"whoAmI"
+			],
+			[
+				"pm",
+				"pmError"
+			],
+			[
+				"ca",
+				"catchName"
+			],
+			[
+				"pri",
+				"privateChatTab"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"link",
+				"linkgrabber"
+			],
+			[
+				"hover",
+				"hoverOut"
+			],
+			[
+				"ho",
+				"hoverOut"
+			],
+			[
+				"pr",
+				"previous"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"anchor",
+				"anchorDestination"
+			],
+			[
+				"seconds",
+				"seconds_left"
+			],
+			[
+				"se",
+				"seconds_left"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"obj",
+				"objectStore"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"form",
+				"form_area"
+			],
+			[
+				"check",
+				"checkbox_section"
+			],
+			[
+				"pddi",
+				"padding-left"
+			],
+			[
+				"fr",
+				"friendNumber"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"background-c",
+				"background-clip"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"border-",
+				"border-radius"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"list-sty",
+				"list-style-type"
+			],
+			[
+				"li",
+				"li	Tag"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"font-",
+				"font-family"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 716,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "style.css",
+			"settings":
+			{
+				"buffer_size": 536,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "masonry-script.js",
+			"settings":
+			{
+				"buffer_size": 1142,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"command_palette":
+	{
+		"height": 311.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 181.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Best Clubs In/Downloads/AutomaticImageMontage/AutomaticImageMontage/js/jquery.montage.js",
+		"/C/Users/Best Clubs In/Downloads/AutomaticImageMontage/AutomaticImageMontage/js/jquery.montage.min.js",
+		"/C/Users/Best Clubs In/Downloads/AutomaticImageMontage/AutomaticImageMontage/css/style.css",
+		"/C/wamp/www/node-accounts-project/node_modules/socket.io/lib/socket.io.js",
+		"/C/wamp/www/node-accounts-project/node_modules/socket.io/index.js",
+		"/C/wamp/www/node-accounts-project/public/css/parsley.css",
+		"/C/wamp/www/node-accounts-project/server.js",
+		"/C/wamp/www/node-accounts-project/node_modules/parsleyjs/doc/index.html",
+		"/C/wamp/www/mashabout_production/app.js",
+		"/C/wamp/www/node-accounts-project/public/js/frontendui.js",
+		"/C/wamp/www/node-accounts-project/public/js/chat.js",
+		"/C/wamp/www/node-accounts-project/node_modules/socket.io/lib/socket.js",
+		"/C/wamp/www/node-accounts-project/app/models/chat.js",
+		"/C/wamp/www/node-accounts-project/views/home.ejs.html",
+		"/C/wamp/www/mashabout_production/views/session.html",
+		"/C/wamp/www/node-accounts-project/views/home.html",
+		"/C/wamp/www/node-accounts-project/app/models/chat",
+		"/C/Users/Best Clubs In/Desktop/node-accounts-project/config/passport.js",
+		"/C/wamp/www/node-accounts-project/node_modules/passport-local/lib/passport-local/strategy.js",
+		"/C/wamp/www/node-accounts-project/node_modules/passport/lib/passport/strategy.js",
+		"/C/Users/Best Clubs In/Downloads/easy-node-authentication-local/easy-node-authentication-local/config/passport.js",
+		"/C/Users/Best Clubs In/Downloads/easy-node-authentication-local/easy-node-authentication-local/app/models/user.js",
+		"/C/Users/Best Clubs In/Downloads/easy-node-authentication-local/easy-node-authentication-local/config/auth.js",
+		"/C/Users/Best Clubs In/Downloads/easy-node-authentication-local/easy-node-authentication-local/app/routes.js",
+		"/C/wamp/www/node-accounts-project/node_modules/express/lib/router/index.js",
+		"/C/wamp/www/node-accounts-project/node_modules/passport/lib/passport/middleware/authenticate.js",
+		"/C/wamp/www/node-accounts-project/node_modules/passport/lib/passport/strategies/session.js",
+		"/C/wamp/www/node-accounts-project/node_modules/passport-local/node_modules/pkginfo/examples/multiple-properties.js",
+		"/C/wamp/www/node-accounts-project/node_modules/passport-local/node_modules/pkginfo/examples/object-argument.js",
+		"/C/wamp/www/node-accounts-project/node_modules/passport-local/node_modules/pkginfo/lib/pkginfo.js",
+		"/C/wamp/www/node-accounts-project/node_modules/passport-local/node_modules/pkginfo/examples/all-properties.js",
+		"/C/wamp/www/node-accounts-project/node_modules/passport-local/lib/passport-local/errors/badrequesterror.js",
+		"/C/wamp/www/node-accounts-project/node_modules/passport-local/lib/passport-local/index.js",
+		"/C/wamp/www/node-accounts-project/config/auth.js",
+		"/C/wamp/www/mashabout_production/public/css/style.css",
+		"/C/wamp/www/node-accounts-project/package.json",
+		"/C/wamp/www/node-accounts-project/views/index.ejs",
+		"/C/wamp/www/node-accounts-project/views/login.ejs",
+		"/C/wamp/www/node-accounts-project/views/signup.ejs",
+		"/C/wamp/www/node-accounts-project/views/profile.ejs",
+		"/C/wamp/www/node-accounts-project/config/database.js",
+		"/C/wamp/www/node-accounts-project/config/passport.js",
+		"/C/wamp/www/node-accounts-project/app/models/user.js",
+		"/C/wamp/www/node-accounts-project/app/routes.js",
+		"/C/wamp/www/chat/public/css/style.css",
+		"/C/wamp/www/chat/index.html",
+		"/C/wamp/www/chat/app.js",
+		"/C/Users/Best Clubs In/Downloads/download_links/download_links/manifest.json",
+		"/C/Users/Best Clubs In/Downloads/download_links/download_links/popup.js",
+		"/C/Users/Best Clubs In/Downloads/download_links/download_links/send_links.js",
+		"/C/Users/Best Clubs In/Downloads/download_links/download_links/popup.html",
+		"/C/wamp/www/Chome_Ext_Linkgrabber/mystyles.css",
+		"/C/wamp/www/ChromeExt_Colourpeek/event.js",
+		"/C/wamp/www/ChromeExt_Colourpeek/manifest.json",
+		"/C/Users/Best Clubs In/Downloads/dasmall-TabZolo-v1.0.3-1-gf50abf1/dasmall-TabZolo-f50abf1/assets/javascript/TabZolo.js",
+		"/C/wamp/www/ChromeExt_Colourpeek/inject.js",
+		"/C/wamp/www/Chome_Ext_ESPN_RSS_Fetcher/manifest.json",
+		"/C/wamp/www/Chome_Ext_ESPN_RSS_Fetcher/rss-fetcher-master/rss-fetcher-master/manifest.json",
+		"/C/wamp/www/Chrome_Ext_Hello_World/popup.html",
+		"/C/wamp/www/Chrome_Extension_tutorial/popup.js",
+		"/C/wamp/www/Chrome_Extension_tutorial/popup.html",
+		"/C/wamp/www/Chrome_Extension_tutorial/content.js",
+		"/C/wamp/www/Chrome_Extension_tutorial/devtools.js",
+		"/C/wamp/www/Chrome_Extension_tutorial/background.js",
+		"/C/wamp/www/Chrome_Extension_tutorial/manifest.json",
+		"/C/Users/Best Clubs In/Downloads/developing-google-chrome-extensions-master/developing-google-chrome-extensions-master/manifest.json",
+		"/C/wamp/www/Mashabout/index.html",
+		"/C/wamp/www/Mashabout/style.css",
+		"/C/wamp/www/Mashabout/script.js",
+		"/C/wamp/www/Need_Aggregator/index.html",
+		"/C/wamp/www/Need_Aggregator/style.css",
+		"/C/wamp/www/Need_Aggregator/pythontest.py",
+		"/C/wamp/www/Eloquent_Javascript/cats.js",
+		"/C/Users/Best Clubs In/Desktop/C9JS_Code/Code/C9JS_20.html",
+		"/C/Users/Best Clubs In/Desktop/C9JS_Code/Code/script20.js",
+		"/C/Users/Best Clubs In/Desktop/C9JS_Code/Code/C9JS_19.html",
+		"/C/Users/Best Clubs In/Desktop/C9JS_Code/Code/data19.json",
+		"/C/Users/Best Clubs In/Desktop/C9JS_Code/Code/script19.js",
+		"/C/Users/Best Clubs In/Desktop/C9JS_Code/Code/C9JS_18.html",
+		"/C/Users/Best Clubs In/Desktop/C9JS_Code/Code/script18.js",
+		"/C/Users/Best Clubs In/Desktop/C9JS_Code/Code/C9JS_16.html",
+		"/C/Users/Best Clubs In/Desktop/C9JS_Code/Code/style16.css",
+		"/C/Users/Best Clubs In/Desktop/C9JS_Code/Code/script16.js",
+		"/C/Users/Best Clubs In/Desktop/C9JS_Code/Code/C9JS_15.html",
+		"/C/Users/Best Clubs In/Desktop/C9JS_Code/Code/script15.js",
+		"/C/Users/Best Clubs In/Desktop/C9JS_Code/Code/style15.css",
+		"/C/Users/Best Clubs In/Desktop/C9JS_Code/Code/C9JS_14.html",
+		"/C/Users/Best Clubs In/Desktop/C9JS_Code/Code/script14.js",
+		"/C/Users/Best Clubs In/Desktop/C9JS_Code/Code/template.html",
+		"/C/Users/Best Clubs In/Desktop/C9JS_Code/Code/C9JS_13.html",
+		"/C/Users/Best Clubs In/Desktop/C9JS_Code/Code/script13.js",
+		"/C/wamp/www/Countdown_Timer/index.html",
+		"/C/Users/Best Clubs In/Downloads/todo-list-indexeddb/todo-list-indexeddb/app.js",
+		"/C/Users/Best Clubs In/Downloads/todo-list-indexeddb/todo-list-indexeddb/db.js",
+		"/C/Users/Best Clubs In/Downloads/todo-list-indexeddb/todo-list-indexeddb/style.css",
+		"/C/Users/Best Clubs In/Downloads/todo-list-indexeddb/todo-list-indexeddb/index.html",
+		"/C/Users/Best Clubs In/Desktop/C9JS_Code/Code/looping_statements.html",
+		"/C/Users/Best Clubs In/Desktop/C9JS_Code/Code/arrays.html",
+		"/C/Users/Best Clubs In/Desktop/C9JS_Code/Code/functions.html",
+		"/C/Users/Best Clubs In/Desktop/C9JS_Code/Code/variables.html",
+		"/C/Users/Best Clubs In/Desktop/C9JS_Code/Code/C9JS_02.html",
+		"/C/Users/Best Clubs In/Google Drive/Feedbaq/Feedbaq_Home_Page/index.html",
+		"/C/Users/Best Clubs In/Google Drive/Feedbaq/Feedbaq_Home_Page/stylesheets/bootstrap.css",
+		"/C/Users/Best Clubs In/Google Drive/Feedbaq/Feedbaq_Home_Page/stylesheets/demo.css",
+		"/C/Windows/Temp/rhurltemp.html",
+		"/D/Screen_Casts/test.swf.html",
+		"/D/Feedbaq/Feedbaq_Home_Page/index.html",
+		"/D/Feedbaq/Feedbaq_Home_Page/stylesheets/demo.css",
+		"/D/Feedbaq/Feedbaq_Home_Page/stylesheets/bootstrap.css",
+		"/D/Feedbaq/Feedbaq_Home_Page/stylesheets/bootstrap-responsive.css",
+		"/D/Feedbaq/Feedbaq_Home_Page/stylesheets/fontawesome.css",
+		"/D/Feedbaq/Feedbaq_Home_Page/stylesheets/common.css",
+		"/C/Users/Best Clubs In/Desktop/test/index.html",
+		"/C/Users/Best Clubs In/Desktop/test/myscript.js",
+		"/C/Users/Best Clubs In/Desktop/index.html",
+		"/C/Users/Best Clubs In/Desktop/myscript.js",
+		"/C/wamp/www/javascript_treehouse/index.html",
+		"/C/wamp/www/javascript_treehouse/myscript.js",
+		"/C/Users/Best Clubs In/Downloads/Accessibility-WebApps-Forms/Web/index.html",
+		"/C/wamp/www/Treehouse_Web_Project/index.html",
+		"/C/wamp/www/Treehouse_Web_Project/css/style.css",
+		"/C/Users/Best Clubs In/Downloads/SmellsLikeBakin-Stage4/WWIsland2-Stage4/index.html",
+		"/C/Users/Best Clubs In/Downloads/css3-typography-multicolumn-layouts/css3-typography-multicolumn-layouts/index.html",
+		"/C/Users/Best Clubs In/Downloads/css3-typography-multicolumn-layouts/css3-typography-multicolumn-layouts/css/style.css",
+		"/C/Users/Best Clubs In/Downloads/css3-animation-project/css3-animation-project/index.html",
+		"/C/Users/Best Clubs In/Downloads/css3-animation-project/css3-animation-project/css/main.css",
+		"/C/Users/Best Clubs In/Downloads/css3-animation-project/css3-animation-project/css/page.css",
+		"/C/wamp/www/floats/index.html"
+	],
+	"find":
+	{
+		"height": 58.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"#gifpull",
+			".chat",
+			"message flashed",
+			"alaina",
+			"flash",
+			"star",
+			"add fav",
+			"$tagEditInput",
+			"gifEditSection",
+			"find",
+			"addTags",
+			"event",
+			"$gifPull",
+			"$('#gifPull')",
+			"\";\n",
+			"msgFrom",
+			"add",
+			"{\n",
+			"#e7e7e7",
+			"black",
+			"border",
+			"User",
+			"local",
+			"user",
+			"divName",
+			"catch",
+			"remove",
+			"#pmMsgBox",
+			".privateChatTab",
+			"tabs",
+			"privateChatTab",
+			"submit",
+			"rooms",
+			"msgBody",
+			"#main_content",
+			"#e",
+			"#",
+			".btn-success",
+			"success",
+			"150px",
+			"#form",
+			"#form_area",
+			"#form_area ",
+			"800px",
+			"#header  ",
+			"header  ",
+			"header ",
+			"icon",
+			"check",
+			"btn-success",
+			"#00CD00",
+			"btn:hover",
+			"btn",
+			"signup",
+			".btn-primary.disabled ",
+			"personPrototype",
+			"rectangle.rectangle-1.rectangle-",
+			"nav",
+			"navbar-inner",
+			";\n",
+			"}"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"$gifPull",
+			"#BDBDBD"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 716,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								288,
+								288
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "style.css",
+					"settings":
+					{
+						"buffer_size": 536,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								385,
+								385
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 243.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "masonry-script.js",
+					"settings":
+					{
+						"buffer_size": 1142,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								315,
+								315
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 810.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 43.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 160.0
+	},
+	"replace":
+	{
+		"height": 80.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
