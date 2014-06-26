@@ -1,9 +1,8 @@
 #gifSearchOverlay {
-	max-width: 816px;
+	max-width: 800px;
 	position: relative;
 	display: none;
 	margin: auto;
-	padding-top: 100px;
 }
 
 /*SEARCH BAR OVERLAY*/
@@ -25,6 +24,14 @@
 	margin-top: 0px;
 }
 
+#gifArea {
+	position: absolute;
+	left: 0px;
+	top: 100px;
+	height: 200px;
+	width: 100%;
+}
+
 .gutter_sizer {
 	max-width: 816px;
 	position: relative;
@@ -32,11 +39,58 @@
 
 
 .item img {
-        width: 200px;
+        width: 160px;
         float: left;
         border: 2px solid #333;
         margin: 0px;
       }
+	  
+#closeEditBox {
+		font-size: 5em;
+		font-weight: 100;
+		position: relative;
+		top: 20px;
+		right: 10px;
+		display: none;
+	  }
 
 
+/* STYLE PLACEHOLDER TEXT */
+::-webkit-input-placeholder {
+   color: gray;
+   opacity: 0.1;
+}
 
+:-moz-placeholder { /* Firefox 18- */
+   color: gray;  
+   opacity: 0.1;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: gray;
+   opacity: 0.1;  
+}
+
+:-ms-input-placeholder {  
+   color: gray; 
+   opacity: 0.1; 
+}
+
+
+/*Gif Search Controls*/
+
+.gifSearchControl {
+	font-size: 9em;
+	position: absolute;
+	color: rgba(0, 0, 0, 0.2);
+}
+
+#next {
+	right: -100px;
+	top: 200px;
+}
+
+#previous {
+	left: -100px;
+	top: 200px;
+}

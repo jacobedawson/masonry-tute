@@ -2,23 +2,27 @@
 <html>
 	<head>
 		<title>Masonry.js</title>
+		<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 	<body>
 		<button id="getGifs">Load Gifs</button>
-		<button id="hideGifs">Hide Gifs</button>
+		<button title="close gif" id="closeEditBox" class="close" type="button">X</button>
 	<div id="gifSearchOverlay">
 	<form id="gif_search">
-		<input type="search" id="gifPullSubmit" class="stamp"></input>
+		<input type="search" id="gifPullSubmit" class="stamp" placeholder="Search for gifs..."></input>
 	</form>
-	    <div id="gifArea">
-	    	
+	<a href="#" id="previousGifs"><span id="previous" class="gifSearchControl"> < </span></a>
+	<a href="#" id="nextGifs"><span id="next" class="gifSearchControl"> > </span></a>
+	    <div id="gifArea">	
 	    </div>
 	</div>
 
 
+
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="masonry-script.js"></script>
 	<script type="text/javascript" src="masonry.pkgd.min.js"></script>
 	<script type="text/javascript" src="imagesLoaded.pkgd.min.js"></script>

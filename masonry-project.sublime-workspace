@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"all",
+				"allTheGifs"
+			],
+			[
+				"al",
+				"allTheGifs"
+			],
+			[
+				"gi",
+				"gifPullSubmit"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
 				"min",
 				"min-height"
 			],
@@ -431,7 +447,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 716,
+				"buffer_size": 1006,
 				"line_ending": "Windows"
 			}
 		},
@@ -439,7 +455,7 @@
 			"file": "style.css",
 			"settings":
 			{
-				"buffer_size": 559,
+				"buffer_size": 758,
 				"line_ending": "Windows"
 			}
 		},
@@ -447,7 +463,7 @@
 			"file": "masonry-script.js",
 			"settings":
 			{
-				"buffer_size": 1142,
+				"buffer_size": 2332,
 				"line_ending": "Windows"
 			}
 		}
@@ -717,7 +733,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -725,15 +741,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 716,
+						"buffer_size": 1006,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								241,
-								241
+								822,
+								822
 							]
 						],
 						"settings":
@@ -752,15 +768,15 @@
 					"file": "style.css",
 					"settings":
 					{
-						"buffer_size": 559,
+						"buffer_size": 758,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								376,
-								376
+								542,
+								542
 							]
 						],
 						"settings":
@@ -768,7 +784,7 @@
 							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 567.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -778,15 +794,15 @@
 					"file": "masonry-script.js",
 					"settings":
 					{
-						"buffer_size": 1142,
+						"buffer_size": 2332,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1008,
-								1008
+								1597,
+								1597
 							]
 						],
 						"settings":
@@ -795,7 +811,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 486.0,
+						"translation.y": 972.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
