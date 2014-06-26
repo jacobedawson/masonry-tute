@@ -439,7 +439,7 @@
 			"file": "style.css",
 			"settings":
 			{
-				"buffer_size": 536,
+				"buffer_size": 559,
 				"line_ending": "Windows"
 			}
 		},
@@ -717,7 +717,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -732,8 +732,8 @@
 						"selection":
 						[
 							[
-								288,
-								288
+								241,
+								241
 							]
 						],
 						"settings":
@@ -752,15 +752,15 @@
 					"file": "style.css",
 					"settings":
 					{
-						"buffer_size": 536,
+						"buffer_size": 559,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								385,
-								385
+								376,
+								376
 							]
 						],
 						"settings":
@@ -768,7 +768,7 @@
 							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 243.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -785,8 +785,8 @@
 						"selection":
 						[
 							[
-								315,
-								315
+								1008,
+								1008
 							]
 						],
 						"settings":
@@ -795,7 +795,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 810.0,
+						"translation.y": 486.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
