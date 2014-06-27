@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"fun",
+				"funQ"
+			],
+			[
+				"try",
+				"tryImagesLoaded"
+			],
+			[
+				"tr",
+				"tryReplyGif"
+			],
+			[
+				"no",
+				"noGifAlert"
+			],
+			[
+				"pre",
+				"previousGifs"
+			],
+			[
+				"next",
+				"nextGifs"
+			],
+			[
 				"all",
 				"allTheGifs"
 			],
@@ -34,10 +58,6 @@
 			[
 				"close",
 				"closeEditBox"
-			],
-			[
-				"no",
-				"noGifExists"
 			],
 			[
 				"add",
@@ -447,7 +467,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1006,
+				"buffer_size": 1179,
 				"line_ending": "Windows"
 			}
 		},
@@ -455,7 +475,7 @@
 			"file": "style.css",
 			"settings":
 			{
-				"buffer_size": 758,
+				"buffer_size": 1294,
 				"line_ending": "Windows"
 			}
 		},
@@ -463,7 +483,7 @@
 			"file": "masonry-script.js",
 			"settings":
 			{
-				"buffer_size": 2332,
+				"buffer_size": 6887,
 				"line_ending": "Windows"
 			}
 		}
@@ -741,15 +761,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 1006,
+						"buffer_size": 1179,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								822,
-								822
+								542,
+								554
 							]
 						],
 						"settings":
@@ -768,23 +788,24 @@
 					"file": "style.css",
 					"settings":
 					{
-						"buffer_size": 758,
+						"buffer_size": 1294,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								542,
-								542
+								569,
+								569
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 567.0,
+						"translation.y": 648.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -794,15 +815,15 @@
 					"file": "masonry-script.js",
 					"settings":
 					{
-						"buffer_size": 2332,
+						"buffer_size": 6887,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1597,
-								1597
+								5564,
+								5564
 							]
 						],
 						"settings":
@@ -811,7 +832,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 972.0,
+						"translation.y": 4598.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
