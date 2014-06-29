@@ -7,7 +7,7 @@ var $container = $('#gifSearchOverlay')
 var $closeEditBox = $('#closeEditBox');
 var $previousGifs = $('#previousGifs');
 var $nextGifs = $('#nextGifs');
-var counter = 15;
+var counter = 14;
 		// initialize
 	$gifArea.imagesLoaded(function() {
 		$gifArea.masonry({
@@ -33,22 +33,31 @@ $closeEditBox.on('click', function() {
 	$closeEditBox.hide();
 	$gifPullSubmit.val('');
 	$('#gifArea').html('');
-	counter = 15;
+	counter = 14;
 	console.log(counter);
 });
 
 function noGifAlert() {
-	$('body').prepend('<div class="alert alert-warning alert-dismissible" role="alert">' +
+	if($('body').find('.alert').length != 0 ) {
+		return;
+	} else {
+		$('body').prepend('<div class="alert alert-warning alert-dismissible" role="alert">' +
   								 '<button type="button" class="close" data-dismiss="alert">' +
   								 '<span aria-hidden="true">&times;</span><span class="sr-only">Close</span>' +
   								 '</button><strong>No Results Found!</strong></div>');
+	}
+	
 };
 
 function endOfTheLine() {
+	if($('body').find('.alert').length != 0 ) {
+		return;
+	} else {
 	$('body').prepend('<div class="alert alert-warning alert-dismissible" role="alert">' +
   								 '<button type="button" class="close" data-dismiss="alert">' +
   								 '<span aria-hidden="true">&times;</span><span class="sr-only">Close</span>' +
   								 '</button><strong>End of the Line!</strong></div>');
+		}
 };
 
 
@@ -61,7 +70,7 @@ $gif_search.on('submit', function(event) {
 	//reinitialize the array to erase old searches
 	allTheGifs = [];
 	//set the counter to 15 to append 15 images at a time
-	counter = 15;
+	counter = 14;
 	//remove old images from the gifArea
 	$('#gifArea').html('');
 	//prevent the default submission action	
@@ -70,96 +79,92 @@ $gif_search.on('submit', function(event) {
 	var tag = ($gifPullSubmit.val());
 	//submit the query to giphy first
 	
-	tryGiphy();
+	var falseCounter = 0;
 
-	function tryGiphy() {
+  tryGiphy();
+  tryFuckYeah();
+  tryReplyGif();
+  tryGifbase();
+
+
+
+
+function tryGiphy() {
 	var getGif = "http://api.giphy.com/v1/gifs/search?q=" + tag + "&api_key=dc6zaTOxFJmzC&limit=100";
 			//submit a json query to giphy
 	$.getJSON(getGif, function(gifs) {
-				if (gifs.data.length == 0) {
+				if (gifs.data.length === 0) {
 						console.log('giphy aint got it');
-						tryFuckYeah();
-						return;
+						tryImagesLoaded();
 						} else {
 							console.log('giphy got it');
-							tryFuckYeah();
 							for(var i = 0; i < gifs.data.length; i++) {
 							allTheGifs.push('<div class="item"><img src=\"' + gifs.data[i].images.fixed_height.url + '\"\/></div>');
 				              	}
+                          tryImagesLoaded();
 							}
 			});
 		//END GIPHY FUNCTION
-			//END GIPHY QUERY 
 	}
 
 
-
-			
-							      
-
-
-								
-		
-						
-	function tryFuckYeah() {
+function tryFuckYeah() {
 				//submit a query to fuck yeah gifs
 	$.ajax({
 			url: "http://api.tumblr.com/v2/blog/fuckyeahreactions.tumblr.com/posts/" +
 			"?api_key=9Yt8UYwcFzmGT08az8NmSMVYsEGQwnVWio1dbUuJ4d4mZsp9kr&tag=" + tag,
 						        dataType: 'jsonp',
 						        success: function(data){
-						            if(data.response.posts.length == 0) {
+						            if(data.response.posts.length === 0) {
 						            	console.log('fuck yeah aint got it');
-						            	tryReplyGif();
-					                	return;
+					                	tryImagesLoaded();
 					                } else {
 					                	console.log('fuck yeah got it');
-					                	tryReplyGif();
 					                	for(var i = 0; i < data.response.posts.length; i++) {
 						                    var gif = data.response.posts[i].body;
 						                    var gifSrc = $(gif).find('img').attr('src');
 						                    allTheGifs.push('<div class="item"><img src=\"' + gifSrc + '\"\/></div>');
 						                }  
+                                      tryImagesLoaded();
 					                }
 						                                         
 						        }
 						    });		
 			//END FUCK YEAH QUERY
 			}
-	
 
-	function tryReplyGif() {
+
+function tryReplyGif() {
 				//REPLY GIF FUNCTION
 	var getGif = "http://replygif.net/api/gifs?tag=" + tag + "&tag-operator=and&api-key=39YAprx5Yi";
 
 								$.getJSON(getGif, function(gifs) {
-									if (gifs.length == 0) {
+									if (gifs.length === 0) {
 									console.log('reply gif aint got it');
-									tryGifbase();
-									return;
+									tryImagesLoaded();
 								} else {
 									console.log('reply gif got it');
-									tryGifbase();
 									for(var i = 0; i < gifs.length; i++) {
 									allTheGifs.push('<div class="item"><img src=\"' +gifs[i].file + '\"\/></div>');
 				              			}
+                                  tryImagesLoaded();
 									}
 							      
 				     			});
 	//END REPLY GIF FUNCTION
 			}
-	
 
-	 function tryGifbase() {
+
+
+function tryGifbase() {
 		//GIFBASE FUNCTION WITH PAGINATION CONTROL
 	tag = tag.replace(/\s+/g, '');
 	var getGif = "http://www.gifbase.com/tag/" + tag + "?p=1&format=json";
 							//function if empty, display message
 							$.getJSON(getGif, function(data) {
-								if(data.length == 0 || data.error == "no gifs found for specified tag") {
+								if(data.length === 0 || data.error === "no gifs found for specified tag") {
 									console.log('Gifbase aint got it');
 									tryImagesLoaded();
-									return;
 								} else {
 								console.log('Gifbase got it');
 								for(var j = 1; j <= data.page_count; j++) {
@@ -175,20 +180,34 @@ $gif_search.on('submit', function(event) {
 								});					
 	//END GIFBASE FUNCTION 	
 	}
-	
 
-			 function tryImagesLoaded() {
-				//BEGIN IMAGES LOADED FUNCTION
-			$gifArea.imagesLoaded( function() {
+
+
+ function tryImagesLoaded() {
+			//BEGIN IMAGES LOADED FUNCTION
+            $gifArea.imagesLoaded( function() {
 			//console.log('all the gifs length is ' + allTheGifs.length);
 			if(allTheGifs.length === 0) {
-					noGifAlert();
+					console.log('no gifs');
+                    falseCounter++;
+                    console.log(falseCounter);
+                    if(falseCounter === 4) {
+                      console.log('no gifs found at all');
+                      noGifAlert();
+                    }
 				} else {
-				 	for(var j = 0; j < 15; j++) {
-					 $gifArea.append(allTheGifs[j]).masonry();
-					}
+                  console.log('got gifs');
+                  if($gifArea.find('.item').length !== 0) {
+            			console.log('has elements');
+            			return;
+		            } else {
+		            	for(var j = 0; j < 15; j++) {
+							 $gifArea.append(allTheGifs[j]).masonry();
+							}
+		            }
+                    
 				}	
-			});
+            });
 			//END IMAGES LOADED FUNCTION
 			}	
 			
@@ -196,7 +215,7 @@ $gif_search.on('submit', function(event) {
 		
 
 });
-//END GIF SEARCH	
+//^END GIF SEARCH	
 
 
 //SHOW NEXT GIFS FUNCTION
@@ -214,7 +233,7 @@ $nextGifs.on('click', function() {
 					$gifArea.append(allTheGifs[i]).masonry();
 					console.log(i);
 					}
-					counter += 15;
+					counter += 14;
 				});
 
 			
@@ -236,8 +255,8 @@ $previousGifs.on('click', function() {
 					$gifArea.append(allTheGifs[i]).masonry();
 					//console.log(i);
 					} 
-					if(counter >= 15) {
-						counter -= 15;
+					if(counter > 14) {
+						counter -= 14;
 					} else {
 						return;
 					}
